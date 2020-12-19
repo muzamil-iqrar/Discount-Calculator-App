@@ -195,7 +195,7 @@ const HistoryScreen = ({ navigation, route }) => {
             {list.map((el) => (
               <DataTable.Row key={el.id}>
                 <DataTable.Cell numeric>
-                  {"e" + el.Original_Price}
+                  {"$" + el.Original_Price}
                 </DataTable.Cell>
                 <DataTable.Cell numeric>
                   {el.DiscountPercentage + " %"}
